@@ -1,0 +1,88 @@
+
+#canvas{ /*outline*/
+ height: 80%;
+ width: 30%;
+ border: 2px solid black;
+}
+body {
+ text-align: center;
+ left: 35%;
+ right: 35%;
+ margin: 20px;
+}
+ 
+.product {
+ margin: 4px;
+}
+ 
+.product1 {
+ height: 100px;
+ width: 100px;
+}
+ 
+#market { /*MY MARKET button on ImEx1*/
+ border-radius: 5px;
+ margin: 20px;
+ padding: 10px;
+}
+ 
+.items { /*items in ImEx2*/
+ list-style-type: none;
+ display: block;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+    border-radius: 10px;
+    float: center;
+}
+ 
+.list { /*list in ImEx2*/
+ color: white;
+ display: block;
+    padding: 10px 12px;
+}
+ 
+#back { /*BACK button*/
+ float: left;
+ border-radius: 5px;
+ padding: 10px;
+ margin: 10px;
+}
+ 
+#create { /*CREATE button on ImEx2*/
+ float: right;
+ border-radius: 5px;
+ padding: 10px;
+ margin: 10px;
+}
+ 
+.create1 { /*SELLER & BUYER buttons on the ImEx3*/
+ border-radius: 5px;
+ padding: 10px;
+ display: center;
+ width: 370px;
+ margin-bottom: 20px;
+ font-size: 15px;
+}
+ 
+figcaption { /*slogan on ImEx1*/
+ font-style: italic;
+ margin: 20px;
+}
+ 
+.navi { /*navigate bar*/
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+    border-radius: 1px solid white;
+}
+ 
+.bar { /*navigate bar*/
+ display: inline-block;
+ color: white;
+    float: center;
+    padding: 14px 35px;
+}
+ 
+ 
