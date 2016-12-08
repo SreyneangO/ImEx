@@ -1,21 +1,284 @@
-
 <!DOCTYPE html>
 <html>
-<canvas></canvas>
-<link rel="stylesheet" type="text/css" href="index.css"></style>
 <head>
- <title>Homepage</title>
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="homepage.css">
 </head>
-<body id="canvas">
- <h1>Welcome to ImEx!</h1><img src="file:///C:/Users/Sreynith/Pictures/LLC%20Photo/ImEx%20picture/ImEx_logo.PNG">
- <figcaption>Connecting Farmers with Customers</figcaption>
- <button id="market">My Market</button><a href="mymarket.html"></a>
- <br>
- </br>
- <ul class="navi">
-  <li class="bar"><a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black"></a>Home</li>
-  <li class="bar"><a href="http://www.w3schools.com/css/css_navbar.asp"></a>About Us</li>
-  <li class="bar"><a href="http://www.colorpicker.com/"></a>Setting</li>
- </ul>
+<body>
+  
+  <img id="image" src="ImExlogo1.png" alt="" class="circle responsive-img"><!-- notice the "circle" class -->
+  <label id="v">Import & Export.</label>
+
+<a href="mymarket.html"><button id="market">My Market</button></a>
+<button id="login">Login</button>
+    
+	<h1 id= "nav-top"></h1>
+
+  <h2>Homepage</h2>
+
+<label id="x">Most Popular</label></label>
+<label id="z"></label>
+
+
+  <center><h1 id= "nav-top"></h1><h2>Homepage</h2></center>
+
+<div class="container">
+  <form>
+    <div class="form-input">
+          <button id="a" class="post"><img id="fruit" src="Cookbook-bounty-Malika.jpg"></button>
+          <button id="b" class="post"><img id="fruit" src="Cookbook-bounty-Malika.jpg"></button>
+          
+    </div>
+  </form>
+</div>
+    
+<button id="l-seller"><a href="seller.html">Seller
+</button></a>
+<button id="l-buyer"><a href="buyer.html">Buyer</button></a>
+
+<label id="d" >Market Price</label>
+<label id="e"></label>
+
+  <table>
+        <thead>
+          <tr>
+              <th data-field="id">Username</th>
+              <th data-field="name">Item Name</th>
+              <th data-field="price">Price</th>
+          </tr>
+        </thead>
+
+        <tbody id="table">
+          <tr id="name">
+            <td>Vattey</td>
+            <td>Cashew</td>
+            <td>$1</td>
+          </tr>
+          <tr>
+            <td id="product">Nith</td>
+            <td>Cassava</td>
+            <td>$2</td>
+          </tr>
+          <tr>
+            <td id="cost">Pich</td>
+            <td>zPeppe</td>
+            <td>$4</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+  <!-- Navbar -->
+<style>
+
+
+
+#market{
+  position: absolute;
+  top: 45%;
+
+  left: 45%;
+
+  font-size:4.3vh;
+
+  background: green;
+}
+
+#fruit{
+  height: 12vh;
+  width: 30vw;
+
+  left: 10%;
+
+  top: 15%;
+}
+
+body{
+  margin: 0 auto;
+
+}
+
+#x{
+  background: green;  
+  
+  position: absolute;
+  top:53%;
+  height:7vh;
+  width: 103vw;
+  text-align: center;
+  left: 10%;
+
+  font-size: 5vh;
+
+}
+
+#z{
+  background:yellow;  
+  
+  position: absolute;
+  top:60%;
+  height:30vh;
+  width: 103vw;
+  left:10%;
+  text-align: center;
+}
+
+
+#d{
+  position: absolute;
+  top:95%;
+  height:7vh;
+  width: 103vw;
+  left: 10%;
+  text-align: center;
+
+  font-size: 5vh;
+
+  background: green;
+}
+
+
+#e{
+  background:yellow;  
+  
+  position: absolute;
+  top:102%;
+  height:25vh;
+  width: 103vw;
+  left: 10%;
+  text-align: center;
+}
+
+#v{
+  position: absolute;
+  top: 35%;
+  left: 45%;
+
+  font-size: 3.5vh;
+
+}
+
+table{
+  position: absolute;
+  top: 103%;
+  left: 15%;
+
+  font-size: 3.5vh;
+
+  white-space: 10vw;
+  padding-right: 2px;
+}
+
+
+#l-buyer{
+  position: absolute;
+  top: 62%;
+  left: 80%;
+
+  font-size: 4.5vh;
+  width: 25vw;
+}
+
+#l-seller{
+  position: absolute;
+  top: 62%;
+  left: 20%;
+
+  font-size: 4.5vh;
+  width: 25vw;
+}
+
+
+#a{
+  position: absolute;
+  top: 69%;
+  left: 13%;
+
+  height: 15vh;
+  width: 40vw;
+
+  white-space: 20px;
+}
+
+
+#b{
+  position: absolute;
+  top: 69%;
+  left: 69%;
+
+  height: 15vh;
+  width: 40vw;
+
+  white-space: 20px;
+}
+
+
+#image{
+  position: absolute;
+  top:20%; 
+  left:40%;
+
+  height:15vh;
+  width: 50vw;
+
+}
+
+
+</style>
+
+	<!-- Navbar -->
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+
+    top: 130%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+
+    height: 12vh;
+    width: 33vw;
+
+    left: 10%;
+    font-size: 3.3vh;
+    
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #41CB53;
+}
+</style>
+
+<ul>
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+  <li><a href="setting.html">Setting</a></li>
+</ul>
+
+</body>
+</html>
+
+
 </body>
 </html>

@@ -1,36 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login</title>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <body>
 
-<div class= "container"> 
-<div class=  "header">
-	<h1>Login</h1>
-</div>
+	    <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <center><img src="ImEx_logo.PNG" alt="" class="circle responsive-img"></center> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+            </div>
+          </div>
+          <button id="upload">Upload</a></button>
+        </div>
+      </div>
 
-<form>
-	<label class="form-group">Email:</label>
-	<input type="email" class="form-control" placeholder="Enter email">
+	<center><h1 id= "nav-top"></h1><h2>Login</h2></center>
 
-	<label class="form-group">Password:</label>
-	<input type="password" class="form-control" placeholder="Enter password">
+	<h1 id="user">Username:</h1><input id="name" type="name" placeholder="ID name" type="text" size="10%">
 
- <div class="checkbox">
- 	<label><input type="checkbox" >Remember me</label>
- </div>
+	<h1 id="email">Email:</h1><input id="mail" type="text" size="10%">
 
-<input type="submit" name=""><a href="mymarket.html"></a>
+	<h1 id="phone1">Phone:</h1><input id="phone" type="name" size="10%"> 
 
-</form>
+	<h1 id="pass">Password:</h1><input id="word" type="name"  size="10%">
 
+  <button id="register"><a href="register.html">Register</button></a>
+
+	<!-- Navbar -->
+<style>
+#register{
+  position: absolute;
+  top: 85%;
+
+  left: 40%;
+
+  width: 45%;
+
+  font-size: 6vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+
+    height: 7vh;
+    width: 32.5vw;
+
+    font-size: 3.3vh;
+    
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #41CB53;
+}
+</style>
+
+<ul>
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="contact.html">About Us</a></li>
+  <li><a href="setting.html">Setting</a></li>
+</ul>
+
+</body>
+</html>
+
+
+ <!-- Submit button -->
+ <button class="btn waves-effect waves-light" type="submit" name="action">
+  <a href="homepage.html"> Submit</button>
+<!-- 
+ Need to have Picture to upload -->
 </body>
 </html>

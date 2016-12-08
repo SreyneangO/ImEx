@@ -1,0 +1,200 @@
+#nav-top{
+	position: absolute;
+	top: -5%; 
+
+	height: 13vh;
+	width: 120vw;
+
+	background:#41CB53;
+
+	font-size: 8vh;
+}
+
+h2{
+	position: absolute;
+	top: -6%;
+	left: 40%;
+
+	font-size: 9vh;
+
+}
+
+#name{
+	position: absolute;
+	top: 45%;
+	left: 44%;
+
+	font-size: 4vh;
+}
+
+
+#name1{
+	font-size: 5vh;
+
+	position: absolute;
+	top: 40%;
+	left: 10%;
+
+}
+
+#product{
+	position: absolute;
+	top: 55%;
+	left: 44%;
+
+	font-size: 4vh;
+
+}
+
+
+#product1{
+	font-size: 5vh;
+
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+
+#amount{
+	position: absolute;
+	top: 65%;
+	left: 44%;
+
+	font-size: 4vh;
+}
+
+#amount1{
+
+	position: absolute;
+	top: 60%;
+	left: 10%;
+
+	font-size: 5vh; 
+
+}
+
+#phone{
+	position: absolute;
+	top: 75%;
+	left: 44%;
+
+	font-size: 4vh;
+}
+
+#phone1{
+	position: absolute;
+	top: 70%;
+	left: 10%;
+
+	font-size: 5vh;
+}
+
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: green; 
+
+	height: 10%;
+	width:120%; 
+
+
+	position: absolute;
+	top: 110%; 
+
+	background:#41CB53;
+
+
+}
+
+#li{
+	float: right;
+
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 5px 6px;
+	color: blue;
+
+}
+
+li a:hover:not(.active) {
+	background-color:red; 
+}
+
+.activer{
+	background-color: blue; 
+}
+
+  header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+
+
+img{
+	position: absolute;
+	top:20%; 
+	left:42%;
+
+	height:20vh;
+	width: 40vw;
+
+}
+
+.btn waves-effect waves-light{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+
+	height: 20vh;
+	width: 20vw;
+
+	border: solid 1px red;
+}
+
+.button-collapse{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	
+	height: 20vh;
+	width: 20vw;
+}	
+
+select{
+	position: absolute;
+	top: 65%;
+	left: 100%;
+
+	height: 5vh;
+	width: 8vw;
+
+	font-size: 1.8vh; 
+}
+
+
+button{
+	position: absolute;
+	top: 98%;
+	left: 75%;
+
+	font-size: 4.6vh;
+
+	border-radius: 10px;
+
+	width: 35vw;
+
+	background: #41CB53;
+
+}
+

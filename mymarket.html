@@ -1,49 +1,244 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>My Market</title>
-<link rel="stylesheet" type="text/css" href="ImEx.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
- 
+  <title>mymarket</title>
+  <link rel="stylesheet" type="text/css" href="buyer.css">
+  <link rel="stylesheet" type="text/css" href='materialize/css/materialize.min.css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body id="canvas">
- <button id="back">Back</button><a href="homepage.html"></a>
- <button id="create">Create</button><a href="pre-post.html">
- <h2>My Market</h2>
- <select>
-  <option>Select a province</option>
-  <option>Battambang</option>
-  <option>Kampot</option>
-  <option>Takeo</option>
-  <option>Kampong Speu</option>
-  <option>Kandal</option>
- </select>
- <input type="search" placeholder="Product..." name="search"> <button style="font-size:14px"><i class="fa fa-search"></i></button>
+<body>
+
+  <center><h1 id= "nav-top"></h1><h2>My Market</h2></center>
+
+<button id="login"><a href="login.html">Login</button></a> 
+
+<input type="text" placeholder="search" id= "input"><button id="search">search</button>
+
+<label id="sell">Seller</label>
+<form>
+    <div class="form-input">
+          <button id="a" class="post"><img id="pic" src="Cookbook-bounty-Malika.jpg"></button>
+          <button id="b" class="post"><img id="pic" src="Cookbook-bounty-Malika.jpg"></button>
+          <button id="c" class="post"><img id="pic" src="Cookbook-bounty-Malika.jpg"></button>
+          <button id="d" class="post"><img id="pic" src="Cookbook-bounty-Malika.jpg"></button>
+    </div>
+  </form>
+
+<label id="buy">Buyer</label>
+<form>
+    <div class="form-input">
+          <button id="e" class="post"><img id="pic" src="Cookbook-bounty-Malika.jpg"></button>
+          <button id="f" class="post"><img id="pic" src="Cookbook-bounty-Malika.jpg"></button>
+          <button id="g" class="post"><img id="pic" src="Cookbook-bounty-Malika.jpg"></button>
+          <button id="h" class="post"><img id="pic" src="Cookbook-bounty-Malika.jpg"></button>
+    </div>
+  </form>
  
- <h3>Buyer post</h3>
-  <button class="product"><img src="https://cdn3.iconfinder.com/data/icons/text-editor-1/24/Insert-Image-128.png" class="product1"><br>label</br></button>
-  <button class="product"><img src="https://cdn3.iconfinder.com/data/icons/text-editor-1/24/Insert-Image-128.png" class="product1"><br>label</br></button>
-  <button class="product"><img src="https://cdn3.iconfinder.com/data/icons/text-editor-1/24/Insert-Image-128.png" class="product1"><br>label</br></button>
- 
- <h3>Seller post</h3>
-  <button class="product"><img src="https://cdn3.iconfinder.com/data/icons/text-editor-1/24/Insert-Image-128.png" class="product1"><br>label</br></button>
-  <button class="product"><img src="https://cdn3.iconfinder.com/data/icons/text-editor-1/24/Insert-Image-128.png" class="product1"><br>label</br></button>
-  <button class="product"><img src="https://cdn3.iconfinder.com/data/icons/text-editor-1/24/Insert-Image-128.png" class="product1"><br>label</br></button>
- <ul class="navi">
-  <li class="bar"><a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black"></a>Home</li>
-  <li class="bar"><a href="http://www.w3schools.com/css/css_navbar.asp"></a>About Us</li>
-  <li class="bar"><a href="http://www.colorpicker.com/"></a>Setting</li>
- </ul>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
- <title>My Market</title>
-<link rel="stylesheet" type="text/css" href="ImEx.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
- 
+  <!-- Navbar -->
+<style>
+#pic{
+  height: 10vh;
+  width: 35vw;
+  left: 5%;
+
+}
+
+#login{
+  position: absolute;
+  top:5%;
+  left: 95%;
+
+  font-size: 3vh;
+
+  width: 15vw;
+
+  background: yellow;
+
+
+}
+
+#buy{
+  position: absolute;
+  top: 72%;
+  left: 10%;
+
+  font-size: 4vh;
+}
+#search{
+  position: absolute;
+  top: 20%;
+  left: 75%;
+
+  font-size: 3vh;
+}
+
+#input{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 50vw;
+
+  font-size: 4vh;
+
+}
+
+#sell{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+
+  font-size: 4vh;
+}
+
+#a{
+  position: absolute;
+  top: 53%;
+  left: 13%;
+
+  height: 15vh;
+  width: 40vw;
+
+  white-space: 20px;
+}
+
+
+#b{
+  position: absolute;
+  top: 53%;
+  left: 69%;
+
+  height: 15vh;
+  width: 40vw;
+
+  white-space: 20px;
+}
+
+
+#c{
+  position: absolute;
+  top: 35%;
+  left: 13%;
+
+  height: 15vh;
+  width: 40vw;
+
+  white-space: 20px;
+}
+
+
+#d{
+  position: absolute;
+  top:35%;
+  left: 69%;
+
+  height: 15vh;
+  width: 40vw;
+
+  white-space: 20px;
+}
+
+
+#h{
+  position: absolute;
+  top: 78%;
+  left: 13%;
+
+  height: 15vh;
+  width: 40vw;
+
+  white-space: 20px;
+}
+
+
+#e{
+  position: absolute;
+  top: 78%;
+  left: 69%;
+
+  height: 15vh;
+  width: 40vw;
+
+  white-space: 20px;
+}
+
+
+#f{
+  position: absolute;
+  top: 98%;
+  left: 13%;
+
+  height: 15vh;
+  width: 40vw;
+
+  white-space: 20px;
+}
+
+
+#g{
+  position: absolute;
+  top:98%;
+  left: 69%;
+
+  height: 15vh;
+  width: 40vw;
+
+  white-space: 20px;
+}
+
+
+h2{
+  font-size: 6vh;
+
+  position: absolute;
+  top: -2%;
+  left: 35%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+
+    font-size: 2vh;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+
+    height: 10vh;
+    width: 33vw;
+
+    font-size: 3.3vh;
+    
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #41CB53;
+}
+</style>
+
+<ul>
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+  <li><a href="setting.html">Setting</a></li>
+</ul>
 
 </body>
 </html>

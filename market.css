@@ -1,0 +1,123 @@
+#search{
+	position: absolute;
+	top: 43%;
+	left: 80%;
+
+	height: 6vh;
+	width: 10vw;
+
+	font-size: 4vh; 
+}
+
+#nav-top{
+	position: absolute;
+	top: -5%; 
+
+	height: 13vh;
+	width: 120vw;
+
+	background:#41CB53;
+
+	font-size: 8vh;
+}
+
+h2{
+	position: absolute;
+	top: -6%;
+	left: 40%;
+
+	font-size: 9vh;
+
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: green; 
+
+	height: 10%;
+	width:120%; 
+
+
+	position: absolute;
+	top: 110%; 
+
+	background:#41CB53;
+
+
+}
+
+#li{
+	float: right;
+
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 5px 6px;
+	color: blue;
+
+}
+
+li a:hover:not(.active) {
+	background-color:red; 
+}
+
+.activer{
+	background-color: blue; 
+}
+
+  header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+
+
+img{
+	position: absolute;
+	top:20%; 
+	left:42%;
+
+	height:20vh;
+	width: 40vw;
+
+}
+
+.btn waves-effect waves-light{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+
+	height: 20vh;
+	width: 20vw;
+
+	border: solid 1px red;
+}
+
+.button-collapse{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	
+	height: 20vh;
+	width: 20vw;
+}	
+
+select{
+	position: absolute;
+	top: 43%;
+	left: 13%;
+
+	height: 6vh;
+	width: 60vw;
+
+	font-size: 4vh; 
+}
